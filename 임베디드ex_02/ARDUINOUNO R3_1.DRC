@@ -1,0 +1,107 @@
+Date and Time : 07/12/19 11:05:05
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+WARNING(ORCAP-1831): Unconnected pin X2,2 
+                    SCHEMATIC1, PAGE1  (1.50, 12.00) 
+WARNING(ORCAP-1608): Net has no driving source SCK 
+                    SCHEMATIC1, PAGE1  (8.70, 7.20) 
+
+Checking For Single Node Nets
+WARNING(ORCAP-1600): Net has fewer than two connections N20348 
+                    SCHEMATIC1, PAGE1  (9.70, 8.40) 
+WARNING(ORCAP-1600): Net has fewer than two connections 2 
+                    SCHEMATIC1, PAGE1  (16.30, 15.60) 
+WARNING(ORCAP-1600): Net has fewer than two connections 7 
+                    SCHEMATIC1, PAGE1  (17.00, 15.60) 
+WARNING(ORCAP-1600): Net has fewer than two connections 3 
+                    SCHEMATIC1, PAGE1  (16.50, 16.30) 
+WARNING(ORCAP-1600): Net has fewer than two connections 6 
+                    SCHEMATIC1, PAGE1  (17.00, 16.30) 
+WARNING(ORCAP-1600): Net has fewer than two connections SCK 
+                    SCHEMATIC1, PAGE1  (8.70, 7.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections AD5 
+                    SCHEMATIC1, PAGE1  (17.40, 11.10) 
+WARNING(ORCAP-1600): Net has fewer than two connections AD4 
+                    SCHEMATIC1, PAGE1  (16.80, 11.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections AREF 
+                    SCHEMATIC1, PAGE1  (12.10, 13.40) 
+
+Checking For Unconnected Bus Nets
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+ERROR(ORCAP-1604): Same Pin Number connected to more than one net. /YELLOW/2  Nets: 'N08017' and 'N08021'. 
+                    SCHEMATIC1, PAGE1  (9.60, 14.10) 
+ERROR(ORCAP-1604): Same Pin Number connected to more than one net. /YELLOW/1  Nets: 'N08029' and 'N08025'. 
+                    SCHEMATIC1, PAGE1  (9.00, 14.10) 
+ERROR(ORCAP-1604): Same Pin Number connected to more than one net. /U3/3  Nets: 'N18853' and 'GND'. 
+                    SCHEMATIC1, PAGE1  (8.30, 8.60) 
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+
+Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+ERROR(ORCAP-1616): Reference is invalid for this part RESET-EN 
+                    SCHEMATIC1, PAGE1  (10.30, 11.50) 
+ERROR(ORCAP-1616): Reference is invalid for this part IOH 
+                    SCHEMATIC1, PAGE1  (17.70, 11.00) 
+ERROR(ORCAP-1616): Reference is invalid for this part YELLOW 
+                    SCHEMATIC1, PAGE1  (9.10, 14.00) 
+ERROR(ORCAP-1616): Reference is invalid for this part YELLOW 
+                    SCHEMATIC1, PAGE1  (9.10, 13.90) 
+ERROR(ORCAP-1616): Reference is invalid for this part RN1C 
+                    SCHEMATIC1, PAGE1  (5.40, 11.20) 
+ERROR(ORCAP-1616): Reference is invalid for this part AD 
+                    SCHEMATIC1, PAGE1  (17.70, 12.90) 
+ERROR(ORCAP-1616): Reference is invalid for this part RN2B 
+                    SCHEMATIC1, PAGE1  (10.20, 14.00) 
+ERROR(ORCAP-1616): Reference is invalid for this part RN2C 
+                    SCHEMATIC1, PAGE1  (10.20, 13.90) 
+ERROR(ORCAP-1616): Reference is invalid for this part 100n 
+                    SCHEMATIC1, PAGE1  (10.00, 12.10) 
+ERROR(ORCAP-1616): Reference is invalid for this part RN2D 
+                    SCHEMATIC1, PAGE1  (9.40, 13.00) 
+ERROR(ORCAP-1616): Reference is invalid for this part RN4A 
+                    SCHEMATIC1, PAGE1  (10.40, 14.50) 
+ERROR(ORCAP-1616): Reference is invalid for this part RN4B 
+                    SCHEMATIC1, PAGE1  (10.40, 14.40) 
+
+Report for Duplicate References
+ERROR(ORCAP-1631): Duplicate reference YELLOW 
+                    SCHEMATIC1, PAGE1  (9.10, 13.90) 
+
+--------------------------------------------------
+Checking Entire Design: ARDUINOUNO R3_1 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+
+Checking Missing Pin Numbers  
+
+Checking Device with Zero pins  
+
+Checking Name Property for Hierarchical Instances  
+
+Check High Speed Properties Syntax
+
+Check Power Ground Mismatch
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? VCC  VCC  8  
+                    SCHEMATIC1, PAGE1  (2.90, 6.70) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? GND  GND  4  
+                    SCHEMATIC1, PAGE1  (6.10, 14.80) 
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------
+   LM358_1	                       1	                       U1: B  
+   LM358	                       1	                       U2: B  
